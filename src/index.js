@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import StopWatch from './StopWatch';
 import './index.css';
 
 ReactDOM.render(
-  <App />,
+  <StopWatch start={Date.now()} />,
   document.getElementById('root')
 );

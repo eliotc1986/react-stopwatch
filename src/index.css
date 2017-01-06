@@ -1,5 +1,12 @@
-body {
+* {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+}
+
+body {
+  color: #626771;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 60px;
+  text-align: center;
 }
